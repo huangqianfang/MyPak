@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MyPak</string>
+    <string name="mainaty_name">main</string>
+    <string name="backup">Backup</string>
+    <string name="delete">Delete</string>
+    <string name="setting">Setting</string>
+    <string name="side">side</string>
+    <string name="side1">side1</string>
+    <string name="side2">side2</string>
+    <string name="side3">side3</string>
+    <string name="side4">side4</string>
+</resources>

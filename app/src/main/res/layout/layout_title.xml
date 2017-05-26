@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ic_side"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/circleImageView"/>
+    
+    <TextView
+        android:id="@+id/textview_menu1"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:layout_below="@id/circleImageView"
+        android:layout_height="50dp"/>
+    <TextView
+        android:text="sex"
+        android:id="@+id/textview_menu2"
+        android:gravity="center"
+        android:layout_below="@id/textview_menu1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+</RelativeLayout>
