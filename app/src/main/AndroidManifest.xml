@@ -3,7 +3,7 @@
           package="com.hqf.mypak">
 
     <application
-        android:name=".application.MyApp"
+        android:name="com.hqf.mypak.application.MyApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"

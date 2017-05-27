@@ -12,6 +12,6 @@ import com.hqf.mypak.application.MyApp;
 public class ToastUtil {
 
 	public static  void showToast(String str){
-		Toast.makeText(MyApp.context , str , Toast.LENGTH_SHORT).show();
+		Toast.makeText(MyApp.getContext() , str , Toast.LENGTH_SHORT).show();
 	}
 }
