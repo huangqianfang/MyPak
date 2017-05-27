@@ -29,4 +29,12 @@ public class Fruit {
 		this.name = name;
 		this.imageId = imageId;
 	}
+
+	@Override
+	public String toString() {
+		return "Fruit{" +
+				"name='" + name + '\'' +
+				", imageId=" + imageId +
+				'}';
+	}
 }

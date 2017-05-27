@@ -33,8 +33,6 @@ public class MainActivity extends AppCompatActivity {
 
 	@BindView(R.id.toolbar)
 	Toolbar toolbar;
-	//	@BindView(R.id.textview_side)
-//	TextView textviewSide;
 	@BindView(R.id.drawerlayout)
 	DrawerLayout drawerlayout;
 	@BindView(R.id.nav_view)
@@ -96,7 +94,6 @@ public class MainActivity extends AppCompatActivity {
 		fab.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
-//				ToastUtil.showToast("dianji le  zan men de xuanfu chuang");
 				Snackbar.make(v, "show snackbar", Snackbar.LENGTH_SHORT).setAction("undo", new View.OnClickListener() {
 					@Override
 					public void onClick(View v) {
