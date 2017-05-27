@@ -1,4 +1,4 @@
-package com.hqf.mypak;
+package com.hqf.mypak.application;
 
 import android.app.Application;
 import android.content.Context;

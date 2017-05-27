@@ -1,6 +1,8 @@
-package com.hqf.mypak;
+package com.hqf.mypak.utils;
 
 import android.widget.Toast;
+
+import com.hqf.mypak.application.MyApp;
 
 /**
  * Created by huangqianfang on 2017/5/26.

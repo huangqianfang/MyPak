@@ -1,4 +1,4 @@
-package com.hqf.mypak;
+package com.hqf.mypak.activity;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -16,6 +16,11 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+
+import com.hqf.mypak.R;
+import com.hqf.mypak.adapter.FruitAdapter;
+import com.hqf.mypak.bean.Fruit;
+import com.hqf.mypak.utils.ToastUtil;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -102,14 +107,7 @@ public class MainActivity extends AppCompatActivity {
 
 		});
 
-//		btnTiaozhuan.setOnClickListener(new View.OnClickListener() {
-//			@Override
-//			public void onClick(View v) {
-//
-//				startActivity(new Intent(MainActivity.this , SecondActivity.class));
-//
-//			}
-//		});
+
 
 	}
 

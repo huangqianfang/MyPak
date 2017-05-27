@@ -1,4 +1,4 @@
-package com.hqf.mypak;
+package com.hqf.mypak.bean;
 
 /**
  * Created by huangqianfang on 2017/5/26.

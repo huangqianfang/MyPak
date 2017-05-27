@@ -1,7 +1,9 @@
-package com.hqf.mypak;
+package com.hqf.mypak.activity;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+
+import com.hqf.mypak.R;
 
 /**
  * Created by huangqianfang on 2017/5/26.
