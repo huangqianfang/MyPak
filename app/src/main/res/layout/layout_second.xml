@@ -5,15 +5,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.hqf.mypak.activity.SecondActivity">
+    tools:context="com.hqf.mypak.activity.SecondActivity"
+    android:fitsSystemWindows="true">
 
     <android.support.design.widget.AppBarLayout
         android:id="@+id/appBar"
+        android:fitsSystemWindows="true"
         android:layout_width="match_parent"
         android:layout_height="250dp">
         <android.support.design.widget.CollapsingToolbarLayout
             android:id="@+id/collapsing_toolbar"
             android:layout_width="match_parent"
+            android:fitsSystemWindows="true"
             android:layout_height="match_parent"
             app:contentScrim="?attr/colorPrimary"
             app:layout_scrollFlags="scroll|exitUntilCollapsed"
@@ -23,11 +26,13 @@
                 android:id="@+id/fruit_image_view"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:fitsSystemWindows="true"
                 android:scaleType="centerCrop"
                 app:layout_collapseMode="parallax"
                 />
             <android.support.v7.widget.Toolbar
                 android:id="@+id/toolbar"
+                android:fitsSystemWindows="true"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
                 app:layout_collapseMode="pin">
