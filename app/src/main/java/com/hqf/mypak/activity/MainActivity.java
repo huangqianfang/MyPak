@@ -1,5 +1,6 @@
 package com.hqf.mypak.activity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.FloatingActionButton;
@@ -94,10 +95,11 @@ public class MainActivity extends AppCompatActivity {
 		fab.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
-				Snackbar.make(v, "show snackbar", Snackbar.LENGTH_SHORT).setAction("undo", new View.OnClickListener() {
+				Snackbar.make(v, "show snackbar", Snackbar.LENGTH_SHORT).setAction("跳转到Rxjava test", new View.OnClickListener() {
 					@Override
 					public void onClick(View v) {
-						ToastUtil.showToast("dianjile snackbar");
+//						ToastUtil.showToast("dianjile snackbar");
+						startActivity(new Intent(MainActivity.this , AboutMetralDesignActivity.class));
 					}
 				}).show();
 			}
@@ -153,9 +155,13 @@ public class MainActivity extends AppCompatActivity {
 	public boolean onOptionsItemSelected(MenuItem item) {
 		String btnMsg = null;
 		switch (item.getItemId()) {
-			case R.id.backup:
-				btnMsg = "backup";
-				break;
+			case R.id.rxjava:
+//				btnMsg = "backup";
+
+				startActivity(new Intent(MainActivity.this , RxjavaActivity.class));
+
+				return true;
+//				break;
 
 			case R.id.delete:
 				btnMsg = "delete";

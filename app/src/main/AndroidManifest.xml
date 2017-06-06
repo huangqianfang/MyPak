@@ -22,6 +22,13 @@
         <activity android:name=".activity.SecondActivity"
                   android:theme="@style/SecondActivityTheme"
                   />
+        <activity android:name=".activity.AboutMetralDesignActivity"
+                  android:theme="@style/SecondActivityTheme"
+                  />
+
+        <activity android:name=".activity.RxjavaActivity"
+
+            />
     </application>
 
 </manifest>
